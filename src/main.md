@@ -217,11 +217,11 @@ the boundaries of the `.bss` and `.data` sections.
 The updated reset handler is shown below:
 
 ``` console
-$ head -n32 ../rt/src/lib.rs
+$ head -n33 ../rt/src/lib.rs
 ```
 
 ``` rust
-{{#include ../ci/main/rt2/src/lib.rs:1:31}}
+{{#include ../ci/main/rt2/src/lib.rs:1:32}}
 ```
 
 Now end users can directly and indirectly make use of `static` variables without running into
